@@ -129,3 +129,45 @@ h1{
     background: #4aaaa5;
 }
 /* ----------- */
+
+/* Media Query */
+.wrapper{
+    width: 980px;
+    margin: 40px auto;
+}
+
+@media screen and (max-width:768px) {
+ 
+}
+
+.container{
+    widows: 100%;
+    padding: 20px;
+}
+.section-1,
+.section-2,
+.wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+#main-content{
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+
+}
+.header1{ 
+     position: static;
+}
+.section-1,
+.section-2,
+.wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+#main-content{
+    width: 100%;
+}
